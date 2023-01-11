@@ -207,6 +207,7 @@ input[type=text] {
 }
 .header__user img:not(:last-child) {
   margin-right: 75px;
+  cursor: pointer;
 }
 @media screen and (max-width: 490px) {
   .header__user img:not(:last-child) {
@@ -230,6 +231,7 @@ input[type=text] {
   opacity: 0.5;
   margin: 0 27px;
   color: #ffffff;
+  cursor: pointer;
 }
 @media screen and (max-width: 490px) {
   .header__menu a {
