@@ -205,9 +205,11 @@ input[type=text] {
 .header__user {
   display: flex;
 }
+.header__user img {
+  cursor: pointer;
+}
 .header__user img:not(:last-child) {
   margin-right: 75px;
-  cursor: pointer;
 }
 @media screen and (max-width: 490px) {
   .header__user img:not(:last-child) {

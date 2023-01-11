@@ -223,9 +223,12 @@ input[type="text"] {
   &__user {
     display: flex;
 
+    img {
+      cursor: pointer;
+    }
+
     img:not(:last-child) {
       margin-right: 75px;
-      cursor: pointer;
 
       @media screen and (max-width: 490px) {
         margin-right: 40px;
